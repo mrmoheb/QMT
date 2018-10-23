@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Agent Data" max_length="40" name="x_167218_qmt_agent_data" type="collection">
+        <element display="true" label="Agent Name" max_length="40" name="agent_name" type="string"/>
+        <element choice="1" label="Country" max_length="40" name="country" type="choice">
+            <choice/>
+        </element>
+        <element label="E-mail" max_length="40" name="e_mail" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Remedy UserName" max_length="40" name="remedy_username" type="string"/>
+        <element label="Supervisor" max_length="32" name="supervisor" reference="x_167218_qmt_supervisors" type="reference"/>
+        <element label="VGECO UserName" max_length="40" name="vgeco_username" type="string"/>
+        <index name="index">
+            <element name="supervisor"/>
+        </index>
+    </element>
+</database>
