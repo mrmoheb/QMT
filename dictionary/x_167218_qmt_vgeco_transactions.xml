@@ -1,10 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="VGECO Transactions" max_length="40" name="x_167218_qmt_vgeco_transactions" type="collection">
         <element label="AccountUser" max_length="32" name="accountuser" reference="x_167218_qmt_agent_data" type="reference"/>
         <element label="Comments" max_length="4000" name="comments" type="journal"/>
         <element choice="1" label="Country" max_length="40" name="country" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="AE" sequence="0" value="AE"/>
+                <element inactive_on_update="false" label="AT" sequence="0" value="AT"/>
+                <element inactive_on_update="false" label="AU" sequence="0" value="AU"/>
+                <element inactive_on_update="false" label="BE" sequence="0" value="BE"/>
+                <element inactive_on_update="false" label="BG" sequence="0" value="BG"/>
+                <element inactive_on_update="false" label="CA" sequence="0" value="CA"/>
+                <element inactive_on_update="false" label="CH" sequence="0" value="CH"/>
+                <element inactive_on_update="false" label="CZ" sequence="0" value="CZ"/>
+                <element inactive_on_update="false" label="DE" sequence="0" value="DE"/>
+                <element inactive_on_update="false" label="DK" sequence="0" value="DK"/>
+                <element inactive_on_update="false" label="EG" sequence="0" value="EG"/>
+                <element inactive_on_update="false" label="ES" sequence="0" value="ES"/>
+                <element inactive_on_update="false" label="FI" sequence="0" value="FI"/>
+                <element inactive_on_update="false" label="FR" sequence="0" value="FR"/>
+                <element inactive_on_update="false" label="GB" sequence="0" value="GB"/>
+                <element inactive_on_update="false" label="GR" sequence="0" value="GR"/>
+                <element inactive_on_update="false" label="HK" sequence="0" value="HK"/>
+                <element inactive_on_update="false" label="HR" sequence="0" value="HR"/>
+                <element inactive_on_update="false" label="HU" sequence="0" value="HU"/>
+                <element inactive_on_update="false" label="ID" sequence="0" value="ID"/>
+                <element inactive_on_update="false" label="IE" sequence="0" value="IE"/>
+                <element inactive_on_update="false" label="IT" sequence="0" value="IT"/>
+                <element inactive_on_update="false" label="JP" sequence="0" value="JP"/>
+                <element inactive_on_update="false" label="KE" sequence="0" value="KE"/>
+                <element inactive_on_update="false" label="KP" sequence="0" value="KP"/>
+                <element inactive_on_update="false" label="MY" sequence="0" value="MY"/>
+                <element inactive_on_update="false" label="NL" sequence="0" value="NL"/>
+                <element inactive_on_update="false" label="NO" sequence="0" value="NO"/>
+                <element inactive_on_update="false" label="NZ" sequence="0" value="NZ"/>
+                <element inactive_on_update="false" label="PH" sequence="0" value="PH"/>
+                <element inactive_on_update="false" label="PL" sequence="0" value="PL"/>
+                <element inactive_on_update="false" label="PT" sequence="0" value="PT"/>
+                <element inactive_on_update="false" label="RO" sequence="0" value="RO"/>
+                <element inactive_on_update="false" label="SE" sequence="0" value="SE"/>
+                <element inactive_on_update="false" label="SG" sequence="0" value="SG"/>
+                <element inactive_on_update="false" label="SG-CAPAC" sequence="0" value="SG-CAPAC"/>
+                <element inactive_on_update="false" label="SK" sequence="0" value="SK"/>
+                <element inactive_on_update="false" label="TH" sequence="0" value="TH"/>
+                <element inactive_on_update="false" label="TW" sequence="0" value="TW"/>
+                <element inactive_on_update="false" label="US" sequence="0" value="US"/>
+                <element inactive_on_update="false" label="ZA" sequence="0" value="ZA"/>
+            </choice>
         </element>
         <element display="true" label="Customer" max_length="32" name="customer" reference="x_167218_qmt_customer_data" type="reference"/>
         <element label="Date" max_length="40" name="date" type="glide_date_time"/>

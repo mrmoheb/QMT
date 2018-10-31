@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="QMTDATA" max_length="40" name="x_167218_qmt_qmtdata" type="collection">
+        <element attributes="import_attribute_name=AccountUser,edge_encryption_enabled=true" label="AccountUser" max_length="46" name="u_accountuser" type="string"/>
+        <element attributes="import_attribute_name=ClosureDateTime,edge_encryption_enabled=true" label="ClosureDateTime" max_length="40" name="u_closuredatetime" type="string"/>
+        <element attributes="import_attribute_name=Comments,edge_encryption_enabled=true" label="Comments" max_length="1941" name="u_comments" type="string"/>
+        <element attributes="import_attribute_name=Country,edge_encryption_enabled=true" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="import_attribute_name=Customer,edge_encryption_enabled=true" label="Customer" max_length="40" name="u_customer" type="string"/>
+        <element attributes="import_attribute_name=Date,edge_encryption_enabled=true" label="Date" max_length="40" name="u_date" type="string"/>
+        <element attributes="import_attribute_name=DueDate,edge_encryption_enabled=true" label="DueDate" max_length="40" name="u_duedate" type="string"/>
+        <element attributes="import_attribute_name=EverBeenOnHold,edge_encryption_enabled=true" label="EverBeenOnHold" max_length="40" name="u_everbeenonhold" type="string"/>
+        <element attributes="import_attribute_name=Notes,edge_encryption_enabled=true" label="Notes" max_length="19404" name="u_notes" type="string"/>
+        <element attributes="import_attribute_name=OrderNumber,edge_encryption_enabled=true" label="OrderNumber" max_length="40" name="u_ordernumber" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=SubmittedDate,edge_encryption_enabled=true" label="SubmittedDate" max_length="40" name="u_submitteddate" type="string"/>
+        <element attributes="import_attribute_name=TransactionType,edge_encryption_enabled=true" label="TransactionType" max_length="40" name="u_transactiontype" type="string"/>
+    </element>
+</database>

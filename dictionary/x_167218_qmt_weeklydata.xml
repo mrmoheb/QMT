@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="WeeklyData" max_length="40" name="x_167218_qmt_weeklydata" type="collection">
+        <element label="sheetJSONData" max_length="40" name="sheetjsondata" type="string"/>
+        <element label="New Date" max_length="40" name="u_glide_date_1" type="glide_date"/>
+    </element>
+</database>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_db_object">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
         <access>public</access>
         <actions_access>false</actions_access>
@@ -14,7 +13,7 @@
         <label>Monitoring Questions</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_167218_qmt_monitoring_questions</name>
-        <number_ref display_value="MON">bffe61cadb912300f1c35385ca96194a</number_ref>
+        <number_ref display_value="QUESTION">bffe61cadb912300f1c35385ca96194a</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <super_class/>

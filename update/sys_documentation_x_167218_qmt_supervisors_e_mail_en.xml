@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="e_mail" label="E-mail" language="en" table="x_167218_qmt_supervisors">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>e_mail</element>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sheetjsondata" label="sheetJSONData" language="en" table="x_167218_qmt_weeklydata">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sheetjsondata</element>
+            <help/>
+            <hint/>
+            <label>sheetJSONData</label>
+            <language>en</language>
+            <name>x_167218_qmt_weeklydata</name>
+            <plural>sheetJSONData</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-23 14:50:27</sys_created_on>
+            <sys_id>e202224adb152300f1c35385ca96196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sheetJSONData</sys_name>
+            <sys_package display_value="QMT" source="x_167218_qmt">e280250edb112300f1c35385ca9619d9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QMT">e280250edb112300f1c35385ca9619d9</sys_scope>
+            <sys_update_name>sys_documentation_x_167218_qmt_weeklydata_sheetjsondata_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-23 14:50:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

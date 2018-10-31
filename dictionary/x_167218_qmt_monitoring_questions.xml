@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Monitoring Questions" max_length="40" name="x_167218_qmt_monitoring_questions" type="collection">
+        <element label="Answers" max_length="255" name="answers" type="string_full_utf8"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" label="Portal Name" max_length="40" name="portal_name" type="choice">
-            <choice/>
+        <element choice="3" default="vgeco" label="Portal Name" max_length="40" name="portal_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="VGECO" sequence="0" value="vgeco"/>
+                <element inactive_on_update="false" label="Remedy" sequence="1" value="remedy"/>
+                <element inactive_on_update="false" label="ServiceNow" sequence="2" value="servicenow"/>
+            </choice>
         </element>
         <element label="Question Text" max_length="40" name="question_text" type="string"/>
     </element>
