@@ -1,9 +1,253 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Customer Data" max_length="40" name="x_167218_qmt_customer_data" type="collection">
-        <element choice="1" label="Country" max_length="40" name="country" type="choice">
-            <choice/>
+        <element choice="3" label="Country" max_length="40" name="country" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Afghanistan" language="En" value="AF"/>
+                <element inactive_on_update="false" label="Åland Islands" language="En" value="AX"/>
+                <element inactive_on_update="false" label="Albania" language="En" value="AL"/>
+                <element inactive_on_update="false" label="Algeria" language="En" value="DZ"/>
+                <element inactive_on_update="false" label="American Samoa" language="En" value="AS"/>
+                <element inactive_on_update="false" label="AndorrA" language="En" value="AD"/>
+                <element inactive_on_update="false" label="Angola" language="En" value="AO"/>
+                <element inactive_on_update="false" label="Anguilla" language="En" value="AI"/>
+                <element inactive_on_update="false" label="Antarctica" language="En" value="AQ"/>
+                <element inactive_on_update="false" label="Antigua and Barbuda" language="En" value="AG"/>
+                <element inactive_on_update="false" label="Argentina" language="En" value="AR"/>
+                <element inactive_on_update="false" label="Armenia" language="En" value="AM"/>
+                <element inactive_on_update="false" label="Aruba" language="En" value="AW"/>
+                <element inactive_on_update="false" label="Australia" language="En" value="AU"/>
+                <element inactive_on_update="false" label="Austria" language="En" value="AT"/>
+                <element inactive_on_update="false" label="Azerbaijan" language="En" value="AZ"/>
+                <element inactive_on_update="false" label="Bahamas" language="En" value="BS"/>
+                <element inactive_on_update="false" label="Bahrain" language="En" value="BH"/>
+                <element inactive_on_update="false" label="Bangladesh" language="En" value="BD"/>
+                <element inactive_on_update="false" label="Barbados" language="En" value="BB"/>
+                <element inactive_on_update="false" label="Belarus" language="En" value="BY"/>
+                <element inactive_on_update="false" label="Belgium" language="En" value="BE"/>
+                <element inactive_on_update="false" label="Belize" language="En" value="BZ"/>
+                <element inactive_on_update="false" label="Benin" language="En" value="BJ"/>
+                <element inactive_on_update="false" label="Bermuda" language="En" value="BM"/>
+                <element inactive_on_update="false" label="Bhutan" language="En" value="BT"/>
+                <element inactive_on_update="false" label="Bolivia" language="En" value="BO"/>
+                <element inactive_on_update="false" label="Bosnia and Herzegovina" language="En" value="BA"/>
+                <element inactive_on_update="false" label="Botswana" language="En" value="BW"/>
+                <element inactive_on_update="false" label="Bouvet Island" language="En" value="BV"/>
+                <element inactive_on_update="false" label="Brazil" language="En" value="BR"/>
+                <element inactive_on_update="false" label="British Indian Ocean Territory" language="En" value="IO"/>
+                <element inactive_on_update="false" label="Brunei Darussalam" language="En" value="BN"/>
+                <element inactive_on_update="false" label="Bulgaria" language="En" value="BG"/>
+                <element inactive_on_update="false" label="Burkina Faso" language="En" value="BF"/>
+                <element inactive_on_update="false" label="Burundi" language="En" value="BI"/>
+                <element inactive_on_update="false" label="Cambodia" language="En" value="KH"/>
+                <element inactive_on_update="false" label="Cameroon" language="En" value="CM"/>
+                <element inactive_on_update="false" label="Canada" language="En" value="CA"/>
+                <element inactive_on_update="false" label="Cape Verde" language="En" value="CV"/>
+                <element inactive_on_update="false" label="Cayman Islands" language="En" value="KY"/>
+                <element inactive_on_update="false" label="Central African Republic" language="En" value="CF"/>
+                <element inactive_on_update="false" label="Chad" language="En" value="TD"/>
+                <element inactive_on_update="false" label="Chile" language="En" value="CL"/>
+                <element inactive_on_update="false" label="China" language="En" value="CN"/>
+                <element inactive_on_update="false" label="Christmas Island" language="En" value="CX"/>
+                <element inactive_on_update="false" label="Cocos (Keeling) Islands" language="En" value="CC"/>
+                <element inactive_on_update="false" label="Colombia" language="En" value="CO"/>
+                <element inactive_on_update="false" label="Comoros" language="En" value="KM"/>
+                <element inactive_on_update="false" label="Congo" language="En" value="CG"/>
+                <element inactive_on_update="false" label="Congo, The Democratic Republic of the" language="En" value="CD"/>
+                <element inactive_on_update="false" label="Cook Islands" language="En" value="CK"/>
+                <element inactive_on_update="false" label="Costa Rica" language="En" value="CR"/>
+                <element inactive_on_update="false" label="Cote D'Ivoire" language="En" value="CI"/>
+                <element inactive_on_update="false" label="Croatia" language="En" value="HR"/>
+                <element inactive_on_update="false" label="Cuba" language="En" value="CU"/>
+                <element inactive_on_update="false" label="Cyprus" language="En" value="CY"/>
+                <element inactive_on_update="false" label="Czech Republic" language="En" value="CZ"/>
+                <element inactive_on_update="false" label="Denmark" language="En" value="DK"/>
+                <element inactive_on_update="false" label="Djibouti" language="En" value="DJ"/>
+                <element inactive_on_update="false" label="Dominica" language="En" value="DM"/>
+                <element inactive_on_update="false" label="Dominican Republic" language="En" value="DO"/>
+                <element inactive_on_update="false" label="Ecuador" language="En" value="EC"/>
+                <element inactive_on_update="false" label="Egypt" language="En" value="EG"/>
+                <element inactive_on_update="false" label="El Salvador" language="En" value="SV"/>
+                <element inactive_on_update="false" label="Equatorial Guinea" language="En" value="GQ"/>
+                <element inactive_on_update="false" label="Eritrea" language="En" value="ER"/>
+                <element inactive_on_update="false" label="Estonia" language="En" value="EE"/>
+                <element inactive_on_update="false" label="Ethiopia" language="En" value="ET"/>
+                <element inactive_on_update="false" label="Falkland Islands (Malvinas)" language="En" value="FK"/>
+                <element inactive_on_update="false" label="Faroe Islands" language="En" value="FO"/>
+                <element inactive_on_update="false" label="Fiji" language="En" value="FJ"/>
+                <element inactive_on_update="false" label="Finland" language="En" value="FI"/>
+                <element inactive_on_update="false" label="France" language="En" value="FR"/>
+                <element inactive_on_update="false" label="French Guiana" language="En" value="GF"/>
+                <element inactive_on_update="false" label="French Polynesia" language="En" value="PF"/>
+                <element inactive_on_update="false" label="French Southern Territories" language="En" value="TF"/>
+                <element inactive_on_update="false" label="Gabon" language="En" value="GA"/>
+                <element inactive_on_update="false" label="Gambia" language="En" value="GM"/>
+                <element inactive_on_update="false" label="Georgia" language="En" value="GE"/>
+                <element inactive_on_update="false" label="Germany" language="En" value="DE"/>
+                <element inactive_on_update="false" label="Ghana" language="En" value="GH"/>
+                <element inactive_on_update="false" label="Gibraltar" language="En" value="GI"/>
+                <element inactive_on_update="false" label="Greece" language="En" value="GR"/>
+                <element inactive_on_update="false" label="Greenland" language="En" value="GL"/>
+                <element inactive_on_update="false" label="Grenada" language="En" value="GD"/>
+                <element inactive_on_update="false" label="Guadeloupe" language="En" value="GP"/>
+                <element inactive_on_update="false" label="Guam" language="En" value="GU"/>
+                <element inactive_on_update="false" label="Guatemala" language="En" value="GT"/>
+                <element inactive_on_update="false" label="Guernsey" language="En" value="GG"/>
+                <element inactive_on_update="false" label="Guinea" language="En" value="GN"/>
+                <element inactive_on_update="false" label="Guinea-Bissau" language="En" value="GW"/>
+                <element inactive_on_update="false" label="Guyana" language="En" value="GY"/>
+                <element inactive_on_update="false" label="Haiti" language="En" value="HT"/>
+                <element inactive_on_update="false" label="Heard Island and Mcdonald Islands" language="En" value="HM"/>
+                <element inactive_on_update="false" label="Holy See (Vatican City State)" language="En" value="VA"/>
+                <element inactive_on_update="false" label="Honduras" language="En" value="HN"/>
+                <element inactive_on_update="false" label="Hong Kong" language="En" value="HK"/>
+                <element inactive_on_update="false" label="Hungary" language="En" value="HU"/>
+                <element inactive_on_update="false" label="Iceland" language="En" value="IS"/>
+                <element inactive_on_update="false" label="India" language="En" value="IN"/>
+                <element inactive_on_update="false" label="Indonesia" language="En" value="ID"/>
+                <element inactive_on_update="false" label="Iran, Islamic Republic Of" language="En" value="IR"/>
+                <element inactive_on_update="false" label="Iraq" language="En" value="IQ"/>
+                <element inactive_on_update="false" label="Ireland" language="En" value="IE"/>
+                <element inactive_on_update="false" label="Isle of Man" language="En" value="IM"/>
+                <element inactive_on_update="false" label="Israel" language="En" value="IL"/>
+                <element inactive_on_update="false" label="Italy" language="En" value="IT"/>
+                <element inactive_on_update="false" label="Jamaica" language="En" value="JM"/>
+                <element inactive_on_update="false" label="Japan" language="En" value="JP"/>
+                <element inactive_on_update="false" label="Jersey" language="En" value="JE"/>
+                <element inactive_on_update="false" label="Jordan" language="En" value="JO"/>
+                <element inactive_on_update="false" label="Kazakhstan" language="En" value="KZ"/>
+                <element inactive_on_update="false" label="Kenya" language="En" value="KE"/>
+                <element inactive_on_update="false" label="Kiribati" language="En" value="KI"/>
+                <element inactive_on_update="false" label="Korea, Democratic People'S Republic of" language="En" value="KP"/>
+                <element inactive_on_update="false" label="Korea, Republic of" language="En" value="KR"/>
+                <element inactive_on_update="false" label="Kuwait" language="En" value="KW"/>
+                <element inactive_on_update="false" label="Kyrgyzstan" language="En" value="KG"/>
+                <element inactive_on_update="false" label="Lao People'S Democratic Republic" language="En" value="LA"/>
+                <element inactive_on_update="false" label="Latvia" language="En" value="LV"/>
+                <element inactive_on_update="false" label="Lebanon" language="En" value="LB"/>
+                <element inactive_on_update="false" label="Lesotho" language="En" value="LS"/>
+                <element inactive_on_update="false" label="Liberia" language="En" value="LR"/>
+                <element inactive_on_update="false" label="Libyan Arab Jamahiriya" language="En" value="LY"/>
+                <element inactive_on_update="false" label="Liechtenstein" language="En" value="LI"/>
+                <element inactive_on_update="false" label="Lithuania" language="En" value="LT"/>
+                <element inactive_on_update="false" label="Luxembourg" language="En" value="LU"/>
+                <element inactive_on_update="false" label="Macao" language="En" value="MO"/>
+                <element inactive_on_update="false" label="Macedonia, The Former Yugoslav Republic of" language="En" value="MK"/>
+                <element inactive_on_update="false" label="Madagascar" language="En" value="MG"/>
+                <element inactive_on_update="false" label="Malawi" language="En" value="MW"/>
+                <element inactive_on_update="false" label="Malaysia" language="En" value="MY"/>
+                <element inactive_on_update="false" label="Maldives" language="En" value="MV"/>
+                <element inactive_on_update="false" label="Mali" language="En" value="ML"/>
+                <element inactive_on_update="false" label="Malta" language="En" value="MT"/>
+                <element inactive_on_update="false" label="Marshall Islands" language="En" value="MH"/>
+                <element inactive_on_update="false" label="Martinique" language="En" value="MQ"/>
+                <element inactive_on_update="false" label="Mauritania" language="En" value="MR"/>
+                <element inactive_on_update="false" label="Mauritius" language="En" value="MU"/>
+                <element inactive_on_update="false" label="Mayotte" language="En" value="YT"/>
+                <element inactive_on_update="false" label="Mexico" language="En" value="MX"/>
+                <element inactive_on_update="false" label="Micronesia, Federated States of" language="En" value="FM"/>
+                <element inactive_on_update="false" label="Moldova, Republic of" language="En" value="MD"/>
+                <element inactive_on_update="false" label="Monaco" language="En" value="MC"/>
+                <element inactive_on_update="false" label="Mongolia" language="En" value="MN"/>
+                <element inactive_on_update="false" label="Montserrat" language="En" value="MS"/>
+                <element inactive_on_update="false" label="Morocco" language="En" value="MA"/>
+                <element inactive_on_update="false" label="Mozambique" language="En" value="MZ"/>
+                <element inactive_on_update="false" label="Myanmar" language="En" value="MM"/>
+                <element inactive_on_update="false" label="Namibia" language="En" value="NA"/>
+                <element inactive_on_update="false" label="Nauru" language="En" value="NR"/>
+                <element inactive_on_update="false" label="Nepal" language="En" value="NP"/>
+                <element inactive_on_update="false" label="Netherlands" language="En" value="NL"/>
+                <element inactive_on_update="false" label="Netherlands Antilles" language="En" value="AN"/>
+                <element inactive_on_update="false" label="New Caledonia" language="En" value="NC"/>
+                <element inactive_on_update="false" label="New Zealand" language="En" value="NZ"/>
+                <element inactive_on_update="false" label="Nicaragua" language="En" value="NI"/>
+                <element inactive_on_update="false" label="Niger" language="En" value="NE"/>
+                <element inactive_on_update="false" label="Nigeria" language="En" value="NG"/>
+                <element inactive_on_update="false" label="Niue" language="En" value="NU"/>
+                <element inactive_on_update="false" label="Norfolk Island" language="En" value="NF"/>
+                <element inactive_on_update="false" label="Northern Mariana Islands" language="En" value="MP"/>
+                <element inactive_on_update="false" label="Norway" language="En" value="NO"/>
+                <element inactive_on_update="false" label="Oman" language="En" value="OM"/>
+                <element inactive_on_update="false" label="Pakistan" language="En" value="PK"/>
+                <element inactive_on_update="false" label="Palau" language="En" value="PW"/>
+                <element inactive_on_update="false" label="Palestinian Territory, Occupied" language="En" value="PS"/>
+                <element inactive_on_update="false" label="Panama" language="En" value="PA"/>
+                <element inactive_on_update="false" label="Papua New Guinea" language="En" value="PG"/>
+                <element inactive_on_update="false" label="Paraguay" language="En" value="PY"/>
+                <element inactive_on_update="false" label="Peru" language="En" value="PE"/>
+                <element inactive_on_update="false" label="Philippines" language="En" value="PH"/>
+                <element inactive_on_update="false" label="Pitcairn" language="En" value="PN"/>
+                <element inactive_on_update="false" label="Poland" language="En" value="PL"/>
+                <element inactive_on_update="false" label="Portugal" language="En" value="PT"/>
+                <element inactive_on_update="false" label="Puerto Rico" language="En" value="PR"/>
+                <element inactive_on_update="false" label="Qatar" language="En" value="QA"/>
+                <element inactive_on_update="false" label="Reunion" language="En" value="RE"/>
+                <element inactive_on_update="false" label="Romania" language="En" value="RO"/>
+                <element inactive_on_update="false" label="Russian Federation" language="En" value="RU"/>
+                <element inactive_on_update="false" label="RWANDA" language="En" value="RW"/>
+                <element inactive_on_update="false" label="Saint Helena" language="En" value="SH"/>
+                <element inactive_on_update="false" label="Saint Kitts and Nevis" language="En" value="KN"/>
+                <element inactive_on_update="false" label="Saint Lucia" language="En" value="LC"/>
+                <element inactive_on_update="false" label="Saint Pierre and Miquelon" language="En" value="PM"/>
+                <element inactive_on_update="false" label="Saint Vincent and the Grenadines" language="En" value="VC"/>
+                <element inactive_on_update="false" label="Samoa" language="En" value="WS"/>
+                <element inactive_on_update="false" label="San Marino" language="En" value="SM"/>
+                <element inactive_on_update="false" label="Sao Tome and Principe" language="En" value="ST"/>
+                <element inactive_on_update="false" label="Saudi Arabia" language="En" value="SA"/>
+                <element inactive_on_update="false" label="Senegal" language="En" value="SN"/>
+                <element inactive_on_update="false" label="Serbia and Montenegro" language="En" value="CS"/>
+                <element inactive_on_update="false" label="Seychelles" language="En" value="SC"/>
+                <element inactive_on_update="false" label="Sierra Leone" language="En" value="SL"/>
+                <element inactive_on_update="false" label="Singapore" language="En" value="SG"/>
+                <element inactive_on_update="false" label="Slovakia" language="En" value="SK"/>
+                <element inactive_on_update="false" label="Slovenia" language="En" value="SI"/>
+                <element inactive_on_update="false" label="Solomon Islands" language="En" value="SB"/>
+                <element inactive_on_update="false" label="Somalia" language="En" value="SO"/>
+                <element inactive_on_update="false" label="South Africa" language="En" value="ZA"/>
+                <element inactive_on_update="false" label="South Georgia and the South Sandwich Islands" language="En" value="GS"/>
+                <element inactive_on_update="false" label="Spain" language="En" value="ES"/>
+                <element inactive_on_update="false" label="Sri Lanka" language="En" value="LK"/>
+                <element inactive_on_update="false" label="Sudan" language="En" value="SD"/>
+                <element inactive_on_update="false" label="Suriname" language="En" value="SR"/>
+                <element inactive_on_update="false" label="Svalbard and Jan Mayen" language="En" value="SJ"/>
+                <element inactive_on_update="false" label="Swaziland" language="En" value="SZ"/>
+                <element inactive_on_update="false" label="Sweden" language="En" value="SE"/>
+                <element inactive_on_update="false" label="Switzerland" language="En" value="CH"/>
+                <element inactive_on_update="false" label="Syrian Arab Republic" language="En" value="SY"/>
+                <element inactive_on_update="false" label="Taiwan, Province of China" language="En" value="TW"/>
+                <element inactive_on_update="false" label="Tajikistan" language="En" value="TJ"/>
+                <element inactive_on_update="false" label="Tanzania, United Republic of" language="En" value="TZ"/>
+                <element inactive_on_update="false" label="Thailand" language="En" value="TH"/>
+                <element inactive_on_update="false" label="Timor-Leste" language="En" value="TL"/>
+                <element inactive_on_update="false" label="Togo" language="En" value="TG"/>
+                <element inactive_on_update="false" label="Tokelau" language="En" value="TK"/>
+                <element inactive_on_update="false" label="Tonga" language="En" value="TO"/>
+                <element inactive_on_update="false" label="Trinidad and Tobago" language="En" value="TT"/>
+                <element inactive_on_update="false" label="Tunisia" language="En" value="TN"/>
+                <element inactive_on_update="false" label="Turkey" language="En" value="TR"/>
+                <element inactive_on_update="false" label="Turkmenistan" language="En" value="TM"/>
+                <element inactive_on_update="false" label="Turks and Caicos Islands" language="En" value="TC"/>
+                <element inactive_on_update="false" label="Tuvalu" language="En" value="TV"/>
+                <element inactive_on_update="false" label="Uganda" language="En" value="UG"/>
+                <element inactive_on_update="false" label="Ukraine" language="En" value="UA"/>
+                <element inactive_on_update="false" label="United Arab Emirates" language="En" value="AE"/>
+                <element inactive_on_update="false" label="United Kingdom" language="En" value="GB"/>
+                <element inactive_on_update="false" label="United States" language="En" value="US"/>
+                <element inactive_on_update="false" label="United States Minor Outlying Islands" language="En" value="UM"/>
+                <element inactive_on_update="false" label="Uruguay" language="En" value="UY"/>
+                <element inactive_on_update="false" label="Uzbekistan" language="En" value="UZ"/>
+                <element inactive_on_update="false" label="Vanuatu" language="En" value="VU"/>
+                <element inactive_on_update="false" label="Venezuela" language="En" value="VE"/>
+                <element inactive_on_update="false" label="Viet Nam" language="En" value="VN"/>
+                <element inactive_on_update="false" label="Virgin Islands, British" language="En" value="VG"/>
+                <element inactive_on_update="false" label="Virgin Islands, U.S." language="En" value="VI"/>
+                <element inactive_on_update="false" label="Wallis and Futuna" language="En" value="WF"/>
+                <element inactive_on_update="false" label="Western Sahara" language="En" value="EH"/>
+                <element inactive_on_update="false" label="Yemen" language="En" value="YE"/>
+                <element inactive_on_update="false" label="Zambia" language="En" value="ZM"/>
+                <element inactive_on_update="false" label="Zimbabwe" language="En" value="ZW"/>
+            </choice>
         </element>
-        <element label="Customer Name" max_length="40" name="customer_name" type="string"/>
+        <element display="true" label="Customer Name" max_length="40" name="customer_name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="CustomerID" max_length="40" name="number" type="string"/>
     </element>
 </database>

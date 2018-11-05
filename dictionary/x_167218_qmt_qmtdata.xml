@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="QMTDATA" max_length="40" name="x_167218_qmt_qmtdata" type="collection">
+    <element extends="sys_import_set_row" label="QMTDATA" max_length="40" name="x_167218_qmt_qmtdata" sizeclass="112050" type="collection">
         <element attributes="import_attribute_name=AccountUser,edge_encryption_enabled=true" label="AccountUser" max_length="46" name="u_accountuser" type="string"/>
         <element attributes="import_attribute_name=ClosureDateTime,edge_encryption_enabled=true" label="ClosureDateTime" max_length="40" name="u_closuredatetime" type="string"/>
         <element attributes="import_attribute_name=Comments,edge_encryption_enabled=true" label="Comments" max_length="1941" name="u_comments" type="string"/>
