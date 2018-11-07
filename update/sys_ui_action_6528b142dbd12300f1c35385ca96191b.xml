@@ -26,13 +26,21 @@
         <name>New Answer</name>
         <onclick>createAnswer()</onclick>
         <order>100</order>
-        <script><![CDATA[var counter = 1;
+        <script><![CDATA[var counter=1;
+
 
 function createAnswer(){
-	g_form.getSections()[0].innerHTML  +="<div class=\"form-group \" style=\"\"> <div class=\"\" data-type=\"label\" choice=\"0\" type=\"string\" nowrap=\"true\"> <label dir=\"ltr\" class=\" col-xs-12 col-md-1_5 col-lg-2 control-label\"><span title=\"\" mandatory=\"false\" class=\" required-marker\" ></span><span title=\"\" class=\"label-text\" data-html=\"false\" >Answer "+counter+"</span></label> </div> <div class=\"col-xs-10 col-md-9 col-lg-8 form-field input_controls\"> <input type=\"text\" id=\"answer"+counter+"\" aria-required=\"false\" maxlength=\"40\" style=\"; \" autocomplete=\"off\" ng-non-bindable=\"\" class=\"form-control \" spellcheck=\"false\"> </div> <div class=\"col-xs-2 col-md-1_5 col-lg-2 form-field-addons\"></div> </div>";
+	var sectionid = g_form.getSections()[0].id.split("-")[1];
+	$j('#'+sectionid).append("<div class=\"form-group \" style=\"\"> <div class=\"\" data-type=\"label\" choice=\"0\" type=\"string\" nowrap=\"true\"> <label dir=\"ltr\" class=\" col-xs-12 col-md-1_5 col-lg-2 control-label\"><span title=\"\" mandatory=\"false\" class=\" required-marker\" ></span><span title=\"\" class=\"label-text\" data-html=\"false\" >Answer "+counter+"</span></label> </div> <div class=\"col-xs-10 col-md-9 col-lg-8 form-field input_controls\"> <input type=\"text\" id=\"answer"+counter+"\" aria-required=\"false\" maxlength=\"2000\" style=\"; \" autocomplete=\"off\" ng-non-bindable=\"\" class=\"form-control \" spellcheck=\"false\"> </div> <div class=\"col-xs-2 col-md-1_5 col-lg-2 form-field-addons\"><button type='button' id='delete'>X</button></div> </div>");
 	counter++;
-}]]></script>
-        <show_insert>false</show_insert>
+	
+	 $j('[id^=delete]').on("click", function() {
+	 $j(this).parent().parent().remove();
+	 });
+}
+   
+]]></script>
+        <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
@@ -42,15 +50,15 @@ function createAnswer(){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6528b142dbd12300f1c35385ca96191b</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name>New Answer</sys_name>
         <sys_overrides/>
-        <sys_package display_value="QMP" source="x_167218_qmt">e280250edb112300f1c35385ca9619d9</sys_package>
+        <sys_package display_value="QMT" source="x_167218_qmt">e280250edb112300f1c35385ca9619d9</sys_package>
         <sys_policy/>
-        <sys_scope display_value="QMP">e280250edb112300f1c35385ca9619d9</sys_scope>
+        <sys_scope display_value="QMT">e280250edb112300f1c35385ca9619d9</sys_scope>
         <sys_update_name>sys_ui_action_6528b142dbd12300f1c35385ca96191b</sys_update_name>
-        <sys_updated_by>reham.taie</sys_updated_by>
-        <sys_updated_on>2018-11-01 13:06:00</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 15:00:13</sys_updated_on>
         <table>x_167218_qmt_monitoring_questions</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

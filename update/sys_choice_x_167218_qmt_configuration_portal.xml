@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="portal" table="x_167218_qmt_configuration" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>portal</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Remedy</label>
+            <language>en</language>
+            <name>x_167218_qmt_configuration</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-07 08:33:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a8b56badb612300f1c35385ca9619d0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-07 08:33:23</sys_updated_on>
+            <value>remedy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>portal</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ServiceNow</label>
+            <language>en</language>
+            <name>x_167218_qmt_configuration</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-07 08:33:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c9bd6badb612300f1c35385ca961937</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-07 08:33:35</sys_updated_on>
+            <value>servicenow</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>portal</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VGECO</label>
+            <language>en</language>
+            <name>x_167218_qmt_configuration</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-07 08:33:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>727b52badb612300f1c35385ca961904</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-07 08:33:14</sys_updated_on>
+            <value>vgeco</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>portal</element>
+            <name>x_167218_qmt_configuration</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-07 08:33:10</sys_created_on>
+            <sys_id>d28bd2badb612300f1c35385ca9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>portal</sys_name>
+            <sys_package display_value="QMT" source="x_167218_qmt">e280250edb112300f1c35385ca9619d9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QMT">e280250edb112300f1c35385ca9619d9</sys_scope>
+            <sys_update_name>sys_choice_x_167218_qmt_configuration_portal</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-07 08:33:10</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

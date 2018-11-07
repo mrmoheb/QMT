@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Configuration" max_length="40" name="x_167218_qmt_configuration" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" label="Portal" max_length="40" name="portal" type="choice">
-            <choice/>
+        <element choice="3" default="vgeco" label="Portal" max_length="40" name="portal" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Remedy" value="remedy"/>
+                <element inactive_on_update="false" label="ServiceNow" value="servicenow"/>
+                <element inactive_on_update="false" label="VGECO" value="vgeco"/>
+            </choice>
         </element>
-        <element label="Qouta" max_length="40" name="qouta" type="decimal"/>
+        <element label="Quota" max_length="40" name="qouta" type="decimal"/>
         <element label="Sampling Percentage" max_length="40" name="sampling_percentage" type="decimal"/>
         <element label="Working Days" max_length="40" name="working_days" type="string"/>
     </element>

@@ -9,6 +9,6 @@
                 <element inactive_on_update="false" label="ServiceNow" sequence="2" value="servicenow"/>
             </choice>
         </element>
-        <element label="Question Text" max_length="40" name="question_text" type="string"/>
+        <element label="Question Text" max_length="1000" name="question_text" type="string"/>
     </element>
 </database>

@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="VGECO Transactions" max_length="40" name="x_167218_qmt_vgeco_transactions" type="collection">
-        <element label="AccountUser" max_length="32" name="accountuser" reference="x_167218_qmt_agent_data" type="reference"/>
-        <element label="Comments" max_length="4000" name="comments" type="journal"/>
-        <element display="true" label="Customer" max_length="32" name="customer" reference="x_167218_qmt_customer_data" type="reference"/>
-        <element label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <element label="AccountUser" max_length="32" name="accountuser" read_only="true" reference="x_167218_qmt_agent_data" type="reference"/>
+        <element label="Comments" max_length="4000" name="comments" read_only="true" type="journal"/>
+        <element display="true" label="Customer" max_length="32" name="customer" read_only="true" reference="x_167218_qmt_customer_data" type="reference"/>
+        <element label="Date" max_length="40" name="date" read_only="true" type="glide_date_time"/>
         <element label="Monitoring Comments" max_length="4000" name="monitoring_comments" type="journal"/>
-        <element choice="1" label="Monitoring Status" max_length="40" name="monitoring_status" type="choice">
-            <choice/>
+        <element choice="3" default="watingforcoaching" label="Monitoring Status" max_length="40" name="monitoring_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Coached" value="coached"/>
+                <element inactive_on_update="false" label="Waiting for Coaching" value="watingforcoaching"/>
+            </choice>
         </element>
-        <element label="Notes" max_length="4000" name="notes" type="journal"/>
+        <element label="Notes" max_length="4000" name="notes" read_only="true" type="journal"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="OrderNumber" max_length="40" name="ordernumber" type="string"/>
-        <element label="Score" max_length="40" name="score" type="decimal"/>
-        <element label="TransactionType" max_length="32" name="transactiontype" reference="x_167218_qmt_transaction_types" type="reference"/>
+        <element label="OrderNumber" max_length="40" name="ordernumber" read_only="true" type="string"/>
+        <element default="0" label="Score" max_length="40" name="score" read_only="true" type="decimal"/>
+        <element label="TransactionType" max_length="32" name="transactiontype" read_only="true" reference="x_167218_qmt_transaction_types" type="reference"/>
         <index name="index">
             <element name="accountuser"/>
         </index>

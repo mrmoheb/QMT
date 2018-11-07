@@ -3,22 +3,24 @@
         <abort_action>false</abort_action>
         <access>package_private</access>
         <action_delete>false</action_delete>
-        <action_insert>true</action_insert>
+        <action_insert>false</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
-        <advanced>true</advanced>
+        <advanced>false</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_167218_qmt_monitoring_questions</collection>
+        <collection>x_167218_qmt_vgeco_transactions</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition/>
+        <filter_condition table="x_167218_qmt_vgeco_transactions">score&gt;0^EQ<item endquery="false" field="score" goto="false" newquery="false" operator="&gt;" or="false" value="0"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>Save Answers</name>
+        <name>ChangeMonitoringStatus</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -28,34 +30,27 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	//var json = new global.JSON().encode(current);
-	//var gsAttachment = new GlideSysAttachment();
-	var gr = new GlideRecord('x_167218_qmt_monitoring_questions');
-	gr.get(current.sys_id);
-	gs.addInfoMessage(gr.number);
-	gsAttachment.write(gr, "moheb.csv", "text/csv", "hello,moheb,me");
-	var result = gs.getContent(gr);
-	gs.addInfoMessage(result);
-	
-	current.setAbortAction(true);
+
+	// Add your code here
+
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-10-23 18:10:35</sys_created_on>
+        <sys_created_on>2018-11-07 08:31:03</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>ef0e07cedb552300f1c35385ca961957</sys_id>
-        <sys_mod_count>34</sys_mod_count>
-        <sys_name>Save Answers</sys_name>
+        <sys_id>756ad67adb612300f1c35385ca961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ChangeMonitoringStatus</sys_name>
         <sys_overrides/>
-        <sys_package display_value="QMP" source="x_167218_qmt">e280250edb112300f1c35385ca9619d9</sys_package>
+        <sys_package display_value="QMT" source="x_167218_qmt">e280250edb112300f1c35385ca9619d9</sys_package>
         <sys_policy/>
-        <sys_scope display_value="QMP">e280250edb112300f1c35385ca9619d9</sys_scope>
-        <sys_update_name>sys_script_ef0e07cedb552300f1c35385ca961957</sys_update_name>
+        <sys_scope display_value="QMT">e280250edb112300f1c35385ca9619d9</sys_scope>
+        <sys_update_name>sys_script_756ad67adb612300f1c35385ca961906</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-05 12:07:06</sys_updated_on>
-        <template/>
+        <sys_updated_on>2018-11-07 08:31:03</sys_updated_on>
+        <template>monitoring_status=coached^EQ</template>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=ef0e07cedb552300f1c35385ca961957"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=756ad67adb612300f1c35385ca961906"/>
 </record_update>

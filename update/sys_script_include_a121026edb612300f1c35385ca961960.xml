@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_167218_qmt.getAllAnswers</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getAllAnswers</name>
+        <script><![CDATA[var getAllAnswers = Class.create();
+getAllAnswers.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+	getPortalQuestions:function(){
+	var portalName = this.getParameter("sysparm_portalname");
+	var gr = new GlideRecord("x_167218_qmt_monitoring_questions");
+	gr.addQuery("portal_name",portalName);
+	gr.query();
+	
+	var result = [];
+	while(gr.next()){	result.push({"question_text":gr.question_text.toString(),"answers":gr.answers.toString()});
+	}
+		//return JSON.stringify(result);
+		return JSON.stringify(result);
+
+},
+    type: 'getAllAnswers'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 12:02:25</sys_created_on>
+        <sys_id>a121026edb612300f1c35385ca961960</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_name>getAllAnswers</sys_name>
+        <sys_package display_value="QMT" source="x_167218_qmt">e280250edb112300f1c35385ca9619d9</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="QMT">e280250edb112300f1c35385ca9619d9</sys_scope>
+        <sys_update_name>sys_script_include_a121026edb612300f1c35385ca961960</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 15:41:34</sys_updated_on>
+    </sys_script_include>
+</record_update>
