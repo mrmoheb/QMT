@@ -10,6 +10,7 @@
 	
 	var customerDataTable = new GlideRecord("x_167218_qmt_customer_data");
 	customerDataTable.addQuery("customer_name",source.u_customer);
+	customerDataTable.addQuery("country",source.u_country);
 	customerDataTable.query();
 	if(customerDataTable.getRowCount() <1){
 		var gr = new GlideRecord('x_167218_qmt_customer_data');
@@ -23,14 +24,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-31 18:15:39</sys_created_on>
         <sys_id>4b8d98f8dbe92300f1c35385ca96197e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>onBefore</sys_name>
         <sys_package display_value="QMT" source="x_167218_qmt">e280250edb112300f1c35385ca9619d9</sys_package>
         <sys_policy/>
         <sys_scope display_value="QMT">e280250edb112300f1c35385ca9619d9</sys_scope>
         <sys_update_name>sys_transform_script_4b8d98f8dbe92300f1c35385ca96197e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-01 10:29:37</sys_updated_on>
+        <sys_updated_on>2018-11-07 09:16:31</sys_updated_on>
         <when>onBefore</when>
     </sys_transform_script>
 </record_update>
